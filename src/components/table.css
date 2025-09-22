@@ -1,4 +1,4 @@
-table {
+/* table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -25,4 +25,47 @@ tfoot td {
   text-align: center;
   background-color: #04aa6d;
   color: white;
+} */
+.table-container {
+  width: 600px;           /* viewport width smaller than table */
+  overflow-x: auto;       /* horizontal scroll */
+  border: 1px solid #ccc;
 }
+
+table {
+  border-collapse: collapse;
+  min-width: 1000px;      /* force table to overflow */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  background: white;
+  white-space: nowrap;    /* prevent wrapping */
+}
+
+/* sticky */
+th.sticky,
+td.sticky {
+  position: sticky;
+  background: #fff;
+  z-index: 2;
+}
+
+/* first 3 sticky cols */
+.sticky-1 {
+  left: 0;
+  z-index: 3; /* ensure above others */
+}
+
+.sticky-2 {
+  left: 120px; /* adjust to your col width */
+  z-index: 3;
+}
+
+.sticky-3 {
+  left: 240px; /* adjust to sum of col widths */
+  z-index: 3;
+}
+
