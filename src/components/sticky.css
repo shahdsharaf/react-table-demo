@@ -1,0 +1,40 @@
+/* .table-container {
+  width: 600px; 
+  overflow-x: auto; 
+  border: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+  min-width: 1000px; 
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  background: white;
+  white-space: nowrap; 
+}
+
+th.sticky,
+td.sticky {
+  position: sticky;
+  background: #fff;
+  z-index: 2;
+}
+
+.sticky-1 {
+  left: 0;
+  z-index: 3; 
+}
+
+.sticky-2 {
+  left: 120px;
+  z-index: 3;
+}
+
+.sticky-3 {
+  left: 240px; 
+  z-index: 3;
+} */

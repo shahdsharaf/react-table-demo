@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       {/* <BasicTable /> */}
-      {/* <SortingTable /> */}
+      <SortingTable />
       {/* <FilteringTable /> */}
       {/* <PaginationTable /> */}
       {/* <RowSelection /> */}
       {/* <ColumnOrder /> */}
       {/* <ColumnHiding /> */}
-      <StickyTable />
+      {/* <StickyTable /> */}
     </div>
   );
 }

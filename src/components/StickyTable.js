@@ -6,7 +6,7 @@ import {
 } from "@tanstack/react-table";
 import MOCK_DATA from "./mock_data.json";
 import { COLUMNS } from "./columns";
-import "./table.css";
+import "./sticky.css";
 
 export const StickyTable = () => {
   const data = useMemo(() => MOCK_DATA, []);
